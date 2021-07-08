@@ -1,2 +1,2 @@
-Target : main.c mainmenu.c cursor.c
-		gcc main.c I$(highlight.c)
+Target : main.c 
+		gcc main.c 
