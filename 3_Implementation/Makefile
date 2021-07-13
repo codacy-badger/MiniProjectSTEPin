@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = converter
+PROJECT_NAME = Departmental Store
 
 # Output directory
 BUILD = build
@@ -19,12 +19,10 @@ endif
 
 # All source code files
 SRC = main.c\
-src/convert.c\
-src/input_check.c
+
 
 # All test source files
-TEST_SRC = src/convert.c\
-src/test_convert.c\
+TEST_SRC = src/test_convert.c\
 unity/unity.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).$(EXEC)
